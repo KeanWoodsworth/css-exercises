@@ -16,6 +16,7 @@ body {
 }
 .container {
   display: flex;
+  flex: 1;
 }
 .content {
   display: flex;
@@ -23,6 +24,7 @@ body {
   flex-wrap: wrap;
   gap: 32px;
   padding: 48px;
+  margin-bottom: auto;
 }
 .footer {
   height: 72px;
